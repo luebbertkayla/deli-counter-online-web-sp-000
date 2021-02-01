@@ -3,7 +3,7 @@
 katz_deli = []
 
 def line(array)
-  if array.length > 0 
+  if array.length >= 1 
     number = 1
     new_array = []
     array.each do |name|
