@@ -17,6 +17,6 @@ def line(array)
 end
 
 def take_a_number(current_line, name)
-  new_array = []
-  new_array << ("#{name}")
+  line << (name)
+  puts "Welcome, #{name}, you are number #{number} in line."
 end
