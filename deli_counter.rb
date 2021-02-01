@@ -8,9 +8,9 @@ def line(array)
     new_array = []
     array.each do |name|
       new_array << ("#{number}. #{name}")
-      
+      number += 1
+    end
     puts "The line is currently: #{number}. #{name}"
-  
   else
     puts "The line is currently empty."
   end
