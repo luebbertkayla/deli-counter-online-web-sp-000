@@ -3,8 +3,10 @@
 katz_deli = []
 
 def line(array)
-  if array.length > 0 
+  number = 1
+  if array.length > 0 do |name|
     puts "The line is currently: #{number}. #{name}"
+  number += 1
   else
     puts "The line is currently empty."
   end
