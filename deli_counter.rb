@@ -4,7 +4,7 @@ katz_deli = []
 
 def line(array)
   if array.length > 0 
-    
+    number = 1
     new_array = []
     array.each do |name|
       new_array << ("#{number}. #{name}")
