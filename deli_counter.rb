@@ -20,3 +20,10 @@ def take_a_number(line, name)
   line.push(name)
   puts "Welcome, #{name}. You are number #{line.length} in line."
 end
+
+def now_serving(line)
+  if line.length >= 1 
+    puts "Currently serving #{line[0]}."
+else
+  puts "There is nobody waiting to be served!"
+end
