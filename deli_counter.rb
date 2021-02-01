@@ -1,6 +1,6 @@
 # Write your code here.
 
-katz_deli = ["Kayla", "Bob", "Brandon"]
+katz_deli = []
 
 def line(array)
   if array.length >= 1 
