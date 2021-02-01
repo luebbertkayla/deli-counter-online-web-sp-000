@@ -4,7 +4,8 @@ katz_deli = []
 
 def line(array)
   number = 1
-  if array.length > 0 do |name, number|
+  if array.length > 0 
+    array.each do |name|
     puts "The line is currently: #{number}. #{name}"
   number += 1
   else
